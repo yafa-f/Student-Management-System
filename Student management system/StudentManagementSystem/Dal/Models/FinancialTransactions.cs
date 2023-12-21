@@ -15,7 +15,7 @@ namespace Dal.Models
         public  int  TransactionId { get; set; }
 
         //Foreign key for Students
-        public string StudentId { get; set; }
+        public int StudentId { get; set; }
         public Students Students { get; set; }
 
         // מועד התשלום
